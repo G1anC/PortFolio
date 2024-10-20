@@ -26,7 +26,15 @@ body {
   }
 }
 
-@font-face {
-  font-family: 'Selaris';
-  src: url('/fonts/Selaris.woff') format('woff');
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Hide scrollbar width */
+  background: transparent; /* Optional: make it transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Optional: make the thumb transparent */
 }

@@ -21,8 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
-            <body className={`w-full h-full overflow-hidden ${LovelaceFont.className} text-3xl antialiased`} >
-                <Background />
+            <body className={`w-screen h-full ${LovelaceFont.className} text-3xl antialiased`} >
                 {children}
             </body>
         </html>
